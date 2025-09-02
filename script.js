@@ -115,7 +115,18 @@ function enviarForm(){
             // }
             
 }
+ let objetoEnvio = {};
 
+        objetoEnvio.nome = nome;
+        objetoEnvio.email = email;
+        objetoEnvio.senha = senha;
+        objetoEnvio.idade = idade;
+        objetoEnvio.dataNascimento = dataNascimento;
+        objetoEnvio.estado = estado;
+        objetoEnvio.sexo = sexo;
+        objetoEnvio.animal = animal;
+
+console.log(objetoEnvio);
 // function maiorDeIdade(idade){
 //     if(!idade) return false;
 
